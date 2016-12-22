@@ -15,19 +15,22 @@ export default () => (
           Julio Makdisse Saito
         </h1>
       </div>
-      <h2>contact</h2>
+      <h2>Contact</h2>
       <ul>
+        <li>
+          <a href='https://github.com/saitodisse?tab=repositories'>github</a>
+        </li>
         <li>
           <a href='mailto:saitodisse@gmail.com'>saitodisse@gmail.com</a>
         </li>
         <li>
-          <a href='tel:(+55) 11 96569-7834'>(+55) 11 96569-7834</a>
+          <a href='tel:(+55) 11 965-697-834'>(+55) 11 965-697-834</a>
         </li>
         <li>
           skype_id: saitodisse
         </li>
         <li>
-          São Bernardo do Campo - SP - Brazil
+          from: São Bernardo do Campo - SP - Brazil
         </li>
       </ul>
     </header>
