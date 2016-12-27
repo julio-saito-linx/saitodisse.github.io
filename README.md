@@ -1,5 +1,18 @@
+## start
+
 ```
+cd source-code
+yarn
 yarn start
+```
+
+
+## publish
+
+```
+cd source-code
+yarn build
+cp -R build/** ..
 ```
 
 #### References:
