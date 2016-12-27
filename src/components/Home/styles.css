@@ -1,20 +1,17 @@
-#home-container {
-  display: flex;
-  flex: 1;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
-}
-
 #home-container > .link-item {
   margin: 20px;
   font-size: 18px;
   font-family: monospace;
 }
 
+.top-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
 #pic-and-title {
   display: flex;
-  flex: 1;
   flex-direction: row;
   align-items: flex-end;
 }
@@ -24,8 +21,111 @@
 }
 
 #pic-and-title .profile-photo {
-  width: 120px;
-  height: 120px;
-  margin-right: 30px;
+  width: 212px;
+  height: 212px;
+  flex-grow: 0;
+  /*height: 100%;*/
+  /*margin-right: 30px;*/
+  margin: 10px 0;
+
 }
 
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  /*margin: 0 0 0 20px;*/
+}
+
+.contact-info div {
+  /*border: 1px solid #7f7f7f;*/
+  border-radius: 4px;
+  padding: 2px 10px;
+  margin: 0 3px 0 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+
+
+.group {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.group > .title {
+  font-size: 20px;
+}
+
+.group .title-small{
+  font-size: 16px;
+  font-weight: normal;
+}
+
+.group > .job {
+  font-size: 16px;
+}
+
+.group > .date {
+  font-size: 14px;
+}
+
+.tags {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  font-size: 14px;
+  margin: 0 0 18px 0;
+}
+
+.tag {
+  border: 1px solid #7f7f7f;
+  border-radius: 4px;
+  padding: 2px 10px;
+  margin: 7px;
+  font-size: 10px;
+}
+
+.external-links {
+  display: flex;
+  flex: 1;
+  padding: 0;
+  margin: 0 0 0 20px;
+}
+
+.external-links div {
+  /*border: 1px solid #7f7f7f;*/
+  border-radius: 4px;
+  padding: 2px 10px;
+  margin: 0 3px 0 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+@media (max-width: 530px) {
+  .top-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+  section {
+    align-self: center;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .group {
+    display: flex;
+    flex-direction: column;
+    /*justify-content: flex-start;*/
+    /*align-items: flex-start;*/
+    /*align-self: center;*/
+  }
+}

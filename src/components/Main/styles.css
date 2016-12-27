@@ -1,45 +1,46 @@
 body {
   font-family: 'Space Mono', monospace;
-  font-size: 140%;
-  margin: 0;
+  font-size: 110%;
+  margin: 40px;
   background-color: white;
 }
 
-@media (max-width: 600px) {
+a {
+  color: #559195;
+  font-weight: bold;
+}
+
+@media (max-width: 760px) {
   body {
-    font-size: 120%;
+    font-size: 100%;
+    margin: 20px;
+  }
+
+  #top-container {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-self: center;
+    justify-content: flex-end;
+    align-items: center;
   }
 }
+
 #main-container {
-  display: flex;
-  flex: 1;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
 }
 
 #top-container {
   display: flex;
   flex: 1;
   flex-direction: row;
-  align-self: flex-end;
+  align-self: center;
   justify-content: flex-end;
   align-items: center;
 }
 
-.title {
-  margin: 5px;
-  padding: 0;
+#top-container h1.title {
   font-size: 16px;
-  align-self: flex-end;
+  margin: 0 10px 0 0;
 }
 
-.sub-title {
-  margin: 5px;
-  padding: 0;
-  font-size: 14px;
-}
 
-.explanation {
-  margin: 20px;
-}
