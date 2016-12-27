@@ -15,16 +15,13 @@ export default () => (
         </div>
         <div className='contact-info'>
           <div className='list-item'>
-            Julio Makdisse Saito
+            <h2 id='fullname'>Julio Makdisse Saito</h2>
           </div>
           <div className='list-item'>
-            <a href='https://github.com/saitodisse?tab=repositories'>github</a>
+            email: <a href='mailto:saitodisse@gmail.com'>saitodisse@gmail.com</a>
           </div>
           <div className='list-item'>
-            <a href='mailto:saitodisse@gmail.com'>saitodisse@gmail.com</a>
-          </div>
-          <div className='list-item'>
-            <a href='tel:(+55) 11 965-697-834'>(+55) 11 965-697-834</a>
+            phone: <a href='tel:(+55) 11 965-697-834'>(+55) 11 965-697-834</a>
           </div>
           <div className='list-item'>
             skype_id: saitodisse
@@ -330,6 +327,7 @@ export default () => (
             <a href='http://stackoverflow.com/cv/saitodisse' title='Curriculum vitae on stack overflow'>
               cv
             </a>
+            <i className='small-info'> (on stack overflow)</i>
           </div>
           <div>
             <a href='https://www.linkedin.com/in/julio-makdisse-saito-868707a' title='Curriculum vitae at linkedin'>

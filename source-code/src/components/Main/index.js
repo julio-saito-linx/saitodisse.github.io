@@ -6,7 +6,7 @@ import './styles.css'
 const pages = {
   null: {
     component: Home,
-    title: 'CV',
+    title: 'cv',
     backgroundColor: '#fff'
   }
 }
@@ -25,9 +25,7 @@ export default connect({
           <h1 className='title'>
             {title}
           </h1>
-          <a href='/'>
-            saitodisse
-          </a>
+          <a href='https://github.com/saitodisse'>github</a>
         </div>
         <Page />
       </div>

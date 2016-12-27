@@ -3,6 +3,11 @@ body {
   font-size: 110%;
   margin: 40px;
   background-color: white;
+  color: #222;
+}
+
+h2 {
+  color: #444;
 }
 
 a {
@@ -12,7 +17,7 @@ a {
 
 @media (max-width: 760px) {
   body {
-    font-size: 100%;
+    font-size: 130%;
     margin: 20px;
   }
 
@@ -24,9 +29,12 @@ a {
     justify-content: flex-end;
     align-items: center;
   }
-}
 
-#main-container {
+  #top-container h1.title, #top-container a {
+    font-size: 70%;
+    margin: 0 10px 0 0;
+    font-weight: normal;
+  }
 }
 
 #top-container {
@@ -38,9 +46,10 @@ a {
   align-items: center;
 }
 
-#top-container h1.title {
-  font-size: 16px;
+#top-container h1.title, #top-container a {
+  font-size: 90%;
   margin: 0 10px 0 0;
+  font-weight: normal;
 }
 
 
