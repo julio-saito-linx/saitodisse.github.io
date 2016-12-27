@@ -1,21 +1,17 @@
 ## start
 
 ```
-cd source-code
 yarn
 yarn start
 ```
 
-
 ## publish
 
 ```
-cd source-code
-yarn build
-cp -R build/** ..
+yarn build && cp -R build/** .. && (cd .. && ga . && gc -m"publish" && gp)
 ```
 
-#### References:
+## references:
 
 - [cerebral](https://cerebral.github.io/)
 - [react semantic-ui](http://react.semantic-ui.com/introduction)
