@@ -9,7 +9,7 @@ export default () => (
         <div id='pic-and-title'>
           <img
             className='profile-photo'
-            src='/images/IMG_20161029_030344_processed.jpg'
+            src='/images/IMG_24.jpg'
             alt='profile photo'
           />
         </div>
