@@ -36,7 +36,7 @@ export default () => (
       </div>
     </section>
 
-    <section>
+    <section className='cv-part'>
       <h2>Experience</h2>
       <div className='group'>
         <div className='title'>
@@ -104,6 +104,13 @@ export default () => (
         <div className='date'>
           Aug 2013 → Nov 2013
         </div>
+        <div className='job-detail'>
+          <div className='project'>
+            <div className='description'>
+              ASP.Net MVC projects
+            </div>
+          </div>
+        </div>
         <div className='tags'>
           <div className='tag'>
             c#
@@ -116,13 +123,20 @@ export default () => (
 
       <div className='group'>
         <div className='title'>
-          Grupo SHC <i className='title-small'>(Citroen and JAC Motors)</i>
+          Grupo SHC <i className='title-small'>(autotrader)</i>
         </div>
         <div className='job'>
           developer
         </div>
         <div className='date'>
           2006 → 2012
+        </div>
+        <div className='job-detail'>
+          <div className='project'>
+            <div className='description'>
+              Apollo (internal autotrader's projects)
+            </div>
+          </div>
         </div>
         <div className='tags'>
           <div className='tag'>
@@ -135,20 +149,38 @@ export default () => (
             asp.net-mvc
           </div>
           <div className='tag'>
-            knockout.js
+            kendoui
+          </div>
+          <div className='tag'>
+            moq
           </div>
           <div className='tag'>
             jquery
           </div>
           <div className='tag'>
-            kendoui
+            ninject
+          </div>
+          <div className='tag'>
+            knockout.js
+          </div>
+          <div className='tag'>
+            log4net
+          </div>
+          <div className='tag'>
+            automapper
+          </div>
+          <div className='tag'>
+            nvelocity
+          </div>
+          <div className='tag'>
+            fluentnhibernate
           </div>
         </div>
       </div>
 
       <div className='group'>
         <div className='title'>
-          Everis, Consulting, IT, Outsourcing & Professional Services
+          Everis <i className='title-small'>(as consultant)</i>
         </div>
         <div className='job'>
           developer
@@ -168,9 +200,32 @@ export default () => (
           </div>
         </div>
       </div>
+
+      <div className='group'>
+        <div className='title'>
+          GEMPI
+        </div>
+        <div className='job'>
+          developer
+        </div>
+        <div className='date'>
+          Aug 2003 → Apr 2005
+        </div>
+        <div className='tags'>
+          <div className='tag'>
+            javascript
+          </div>
+          <div className='tag'>
+            asp
+          </div>
+          <div className='tag'>
+            vb6
+          </div>
+        </div>
+      </div>
     </section>
 
-    <section>
+    <section className='cv-part'>
       <h2>Education</h2>
       <div className='group'>
         <div className='title'>
@@ -211,7 +266,7 @@ export default () => (
       </div>
     </section>
 
-    <section>
+    <section className='cv-part'>
       <h2>Projects</h2>
 
       <div className='group'>
@@ -337,7 +392,7 @@ export default () => (
       </div>
     </section>
 
-    <section>
+    <section className='cv-part'>
       <h2>External links</h2>
       <div className='group'>
         <div className='external-links'>
