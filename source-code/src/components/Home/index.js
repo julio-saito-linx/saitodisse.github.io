@@ -48,6 +48,24 @@ export default () => (
         <div className='date'>
           Oct 2014 → Nov 2016
         </div>
+        <div className='job-detail'>
+          <div className='project'>
+            <div className='title'>
+              <a href='https://github.com/azukiapp/azk/graphs/contributors'>azk</a>
+            </div>
+            <div className='description'>
+              dev orchestration tool  (node.js)
+            </div>
+          </div>
+          <div className='project'>
+            <div className='title'>
+              <a href='http://www.liveguide.me/home-en'>liveguide</a>
+            </div>
+            <div className='description'>
+              real-time trip recommendations (react native)
+            </div>
+          </div>
+        </div>
         <div className='tags'>
           <div className='tag'>
             javascript

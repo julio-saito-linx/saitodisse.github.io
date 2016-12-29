@@ -111,6 +111,19 @@
   font-size: 60%;
 }
 
+.job-detail {
+  margin: 4px 0 4px 9px;
+  font-size: 80%;
+}
+
+.project {
+  display: flex;
+}
+
+.project .title {
+  margin: 0 10px 0 0;
+}
+
 @media (max-width: 530px) {
   .top-info {
     display: flex;
