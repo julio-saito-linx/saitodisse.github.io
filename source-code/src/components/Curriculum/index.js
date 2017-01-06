@@ -70,7 +70,7 @@ export default () => (
 
         Integgro: {
           title: 'Integgro',
-          titleItalic: '(as consultant)',
+          titleItalic: ' (as consultant)',
           subtitle: 'developer',
           date: 'Aug 2013 → Nov 2013',
           details: {
@@ -83,7 +83,7 @@ export default () => (
 
         GrupoSHC: {
           title: 'Grupo SHC',
-          titleItalic: '(autotrader)',
+          titleItalic: ' (autotrader)',
           subtitle: 'developer',
           date: '2006 → 2012',
           details: {
@@ -109,13 +109,13 @@ export default () => (
 
         Everis: {
           title: 'Everis',
-          titleItalic: '(as consultant)',
+          titleItalic: ' (as consultant)',
           subtitle: 'developer',
           date: 'May 2005 → Feb 2006',
           tags: [
             'javascript',
-            'asp',
-            'vb6'
+            'ASP',
+            'VB6'
           ]
         },
 
@@ -125,11 +125,111 @@ export default () => (
           date: 'Aug 2003 → Apr 2005',
           tags: [
             'javascript',
-            'asp',
-            'vb6'
+            'ASP',
+            'VB6'
           ]
         }
 
+      }}
+    />
+
+    <CurriculumSection
+      title='Education'
+      groups={{
+        Fatec: {
+          title: 'Engineering technologist Computer data processing',
+          subtitle: 'FATEC SP',
+          date: '2001 → 2007',
+          tags: [
+            'C',
+            'pascal',
+            'java',
+            'SQL',
+            'algorithm',
+            'databases',
+            'business',
+            'project-management'
+          ]
+        }
+      }}
+    />
+
+    <CurriculumSection
+      title='Projects'
+      groups={{
+        pixijs: {
+          title: 'pixijs-cerebral',
+          date: 'Dec 2016',
+          tags: [
+            'cerebral',
+            'pixijs',
+            'reactjs'
+          ]
+        },
+        reactNativeCerebral2: {
+          title: 'reactNativeCerebral2',
+          date: 'Dec 2016',
+          tags: [
+            'cerebral',
+            'react-native'
+          ]
+        },
+        mdList: {
+          title: 'markdown chat',
+          date: 'Aug 2016 → Oct 2016',
+          tags: [
+            'cerebral',
+            'firebase',
+            'elasticsearch',
+            'notifications',
+            'flexbox',
+            'elasticsearch-2.0',
+            'reactjs'
+          ]
+        },
+        twitterStreamCli: {
+          title: 'twitter-stream-cli',
+          date: 'Jul 2016',
+          tags: [
+            'firebase',
+            'twitter',
+            'rxjs',
+            'chalk',
+            'gulp',
+            'babeljs'
+          ]
+        },
+        azk: {
+          title: 'azk',
+          date: 'Sep 2013 → Feb 2016',
+          tags: [
+            'javascript',
+            'node.js',
+            'shell',
+            'docker'
+          ]
+        }
+      }}
+    />
+
+    <CurriculumSection
+      title=''
+      groups={{
+        cv: {
+          /* title: 'Curriculum Vitae', */
+          titleItalic: 'External links',
+          details: {
+            cv: {
+              title: 'cv',
+              url: 'http://stackoverflow.com/cv/saitodisse',
+              description: ' (on stack overflow)'
+            },
+            linkedin: {
+              title: 'linkedin',
+              url: 'https://www.linkedin.com/in/julio-makdisse-saito-868707a'
+            }
+          }
+        }
       }}
     />
 

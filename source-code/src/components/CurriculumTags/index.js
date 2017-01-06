@@ -5,7 +5,7 @@ export default ({
   tags
 }) => (
   <div className='tags'>
-    {tags.map(t => (
+    {tags && tags.map(t => (
       <div className='tag' key={t}>
         {t}
       </div>
