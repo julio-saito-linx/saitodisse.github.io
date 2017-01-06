@@ -1,11 +1,11 @@
 import React from 'react'
 import {connect} from 'cerebral/react'
-import Home from '../Home'
+import Curriculum from '../Curriculum'
 import './styles.css'
 
 const pages = {
   null: {
-    component: Home,
+    component: Curriculum,
     title: 'cv',
     backgroundColor: '#fff'
   }

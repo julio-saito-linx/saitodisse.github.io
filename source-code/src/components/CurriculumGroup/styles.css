@@ -1,0 +1,30 @@
+.group {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.group > .title {
+  font-size: 130%;
+}
+
+.group .title-small{
+  font-size: 80%;
+  font-weight: normal;
+}
+
+.group > .job {
+  font-size: 90%;
+}
+
+.group > .date {
+  font-size: 80%;
+}
+
+@media (max-width: 530px) {
+  .group {
+    display: flex;
+    flex-direction: column;
+  }
+}

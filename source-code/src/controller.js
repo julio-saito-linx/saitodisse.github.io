@@ -2,7 +2,7 @@ import {Controller} from 'cerebral'
 import Devtools from 'cerebral/devtools'
 import Router from 'cerebral-router'
 import {set, state} from 'cerebral/operators'
-import home from './modules/home'
+import curriculum from './modules/curriculum'
 
 export default Controller({
   options: {
@@ -18,13 +18,13 @@ export default Controller({
 
   // Defines the top level state
   state: {
-    currentPage: 'home'
+    currentPage: 'curriculum'
   },
 
   // Defines the top level signals
   signals: {
     routed: [
-      set(state`currentPage`, 'home')
+      set(state`currentPage`, 'curriculum')
     ]
   },
 
@@ -42,7 +42,7 @@ export default Controller({
         }
       ]
     }),
-    home
+    curriculum
   }
 
 })

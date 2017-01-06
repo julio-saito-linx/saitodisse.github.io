@@ -1,40 +1,19 @@
 import React from 'react'
 import './styles.css'
+import CurriculumSection from '../CurriculumSection'
 
 export default () => (
   <div id='home-container'>
 
-    <section>
-      <div className='top-info'>
-        <div id='pic-and-title'>
-          <img
-            className='profile-photo'
-            src='/images/IMG_24.jpg'
-            alt='profile photo'
-          />
-        </div>
-        <div className='contact-info'>
-          <div className='list-item'>
-            <h2 id='fullname'>Julio Makdisse Saito</h2>
-          </div>
-          <div className='list-item'>
-            email: <a href='mailto:saitodisse@gmail.com'>saitodisse@gmail.com</a>
-          </div>
-          <div className='list-item'>
-            phone: <a href='tel:(+55) 11 965-697-834'>(+55) 11 965-697-834</a>
-          </div>
-          <div className='list-item'>
-            skype_id: saitodisse
-          </div>
-          <div className='list-item'>
-            birth year: 1981
-          </div>
-          <div className='list-item'>
-            nationality: Brazil
-          </div>
-        </div>
-      </div>
-    </section>
+    <CurriculumSection
+      title='Section Title'
+      groups={{experience: {
+        title: 'title',
+        subtitle: 'subtitle',
+        date: 'date',
+        tags: ['tag1', 'tag2', 'tag3']
+      }}}
+    />
 
     <section className='cv-part'>
       <h2>Experience</h2>
